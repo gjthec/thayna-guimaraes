@@ -21,7 +21,7 @@ const App: React.FC = () => {
           <div className="container mx-auto px-6 overflow-hidden">
             <div className="flex flex-wrap justify-around items-center gap-10 opacity-60">
               <span className="text-white font-serif text-lg tracking-[0.2em] italic uppercase border-b border-gold/30 pb-1">Excelência</span>
-              <span className="text-white font-serif text-lg tracking-[0.2em] italic uppercase border-b border-gold/30 pb-1">Ciência</span>
+              <span className="text-white font-serif text-lg tracking-[0.2em] italic uppercase border-b border-gold/30 pb-1">Beleza</span>
               <span className="text-white font-serif text-lg tracking-[0.2em] italic uppercase border-b border-gold/30 pb-1">Segurança</span>
               <span className="text-white font-serif text-lg tracking-[0.2em] italic uppercase border-b border-gold/30 pb-1">Exclusividade</span>
             </div>
@@ -44,7 +44,7 @@ const App: React.FC = () => {
                 <span className="text-[9px] tracking-[0.3em] uppercase text-gold font-bold">{IMAGE_CONFIG.professional.title}</span>
               </div>
               <p className="text-xs text-gray-400 leading-relaxed max-w-xs font-medium">
-                Unindo o rigor da ciência biomédica aos melhores protocolos estéticos para elevar sua autoestima e saúde da pele em Caxias do Sul.
+                Dedicada aos melhores protocolos estéticos faciais para elevar sua autoestima e saúde da pele em Caxias do Sul.
               </p>
             </div>
             
@@ -54,16 +54,15 @@ const App: React.FC = () => {
                 <ul className="text-xs text-gray-400 space-y-3 font-medium">
                   <li><a href="#" className="hover:text-gold transition-colors">Início</a></li>
                   <li><a href="#procedimentos" className="hover:text-gold transition-colors">Procedimentos</a></li>
-                  <li><a href="#autoridade" className="hover:text-gold transition-colors">Diferencial Acadêmico</a></li>
+                  <li><a href="#autoridade" className="hover:text-gold transition-colors">Diferencial</a></li>
                   <li><a href="#contato" className="hover:text-gold transition-colors">Contato</a></li>
                 </ul>
               </div>
               <div>
-                <h5 className="text-xs font-bold uppercase tracking-widest text-gold mb-6">Legal</h5>
+                <h5 className="text-xs font-bold uppercase tracking-widest text-gold mb-6">Informações</h5>
                 <ul className="text-xs text-gray-400 space-y-3 font-medium">
                   <li><a href="#" className="hover:text-gold transition-colors">Privacidade</a></li>
                   <li><a href="#" className="hover:text-gold transition-colors">Termos de Uso</a></li>
-                  <li><a href="#" className="hover:text-gold transition-colors">CRBM-RS</a></li>
                 </ul>
               </div>
               <div className="col-span-2 md:col-span-1">
@@ -84,7 +83,7 @@ const App: React.FC = () => {
           
           <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] text-gray-500 uppercase tracking-[0.2em] font-bold">
             <p>&copy; {new Date().getFullYear()} {IMAGE_CONFIG.professional.name}. Todos os direitos reservados.</p>
-            <p>Desenvolvido em Caxias do Sul - RS</p>
+            <p>Caxias do Sul - RS</p>
           </div>
         </div>
       </footer>

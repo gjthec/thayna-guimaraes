@@ -11,7 +11,7 @@ export const Hero: React.FC = () => {
       
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
         
-        {/* Lado Esquerdo: Textos e CTAs - Agora aparece PRIMEIRO no mobile (order-1) */}
+        {/* Lado Esquerdo: Textos e CTAs */}
         <div className="z-30 order-1 lg:order-1 relative">
           <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 bg-gold/10 border border-gold/20 rounded-full">
             <span className="w-2 h-2 rounded-full bg-gold animate-pulse"></span>
@@ -19,13 +19,13 @@ export const Hero: React.FC = () => {
           </div>
           
           <h1 className="font-serif text-5xl lg:text-7xl text-[#1A1A1A] leading-[1.1] mb-8">
-            A Ciência da <br/>
-            <span className="italic text-gold">Biomedicina</span> <br/>
+            A Ciência do <br/>
+            <span className="italic text-gold">Cuidado</span> <br/>
             na sua Pele
           </h1>
           
           <p className="text-lg lg:text-xl text-[#444444] mb-12 max-w-lg leading-relaxed font-normal">
-            Protocolos de alta performance desenvolvidos por <strong>Thayná Guimarães</strong> para quem busca segurança clínica e resultados naturais.
+            Protocolos de alta performance desenvolvidos por <strong>Thayná Guimarães</strong> para quem busca resultados naturais e excelência estética.
           </p>
           
           {/* Botão de Destaque Máximo */}
@@ -47,7 +47,7 @@ export const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* Lado Direito: Imagem e Badges - Agora aparece DEPOIS no mobile (order-2) */}
+        {/* Lado Direito: Imagem e Badges */}
         <div className="relative order-2 lg:order-2 flex justify-center lg:justify-end">
           <div className="relative w-full max-w-lg">
             
@@ -69,7 +69,7 @@ export const Hero: React.FC = () => {
                     <ShieldCheck className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-[9px] text-gray-400 uppercase font-black tracking-widest leading-none mb-1">Rigor Clínico</p>
+                    <p className="text-[9px] text-gray-400 uppercase font-black tracking-widest leading-none mb-1">Rigor Técnico</p>
                     <p className="text-xs text-[#1A1A1A] font-bold">Biossegurança</p>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ export const Hero: React.FC = () => {
               <div className="absolute -bottom-10 -right-2 lg:-bottom-12 lg:-right-10 z-50 bg-[#1A1A1A] p-5 lg:p-8 shadow-[0_30px_60px_rgba(0,0,0,0.3)] rounded-sm border-l-[8px] border-gold max-w-[240px] lg:max-w-[320px] transform lg:-rotate-1 hover:rotate-0 transition-all">
                 <p className="font-serif text-xl lg:text-2xl text-white italic mb-2">Cuidado em Ação</p>
                 <p className="text-[10px] lg:text-sm text-gray-300 leading-relaxed font-medium">
-                  Cada movimento é planejado para garantir o máximo de resultado com o máximo de segurança clínica e conforto.
+                  Cada detalhe é planejado para garantir o máximo de resultado com o máximo de conforto e cuidado.
                 </p>
               </div>
             </div>

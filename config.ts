@@ -23,7 +23,7 @@ export const IMAGE_CONFIG = {
   },
   professional: {
     name: "Thayná Guimarães",
-    title: "Biomédica Esteta • CRBM 0000"
+    title: "Estética Facial Avançada"
   }
 };
 
