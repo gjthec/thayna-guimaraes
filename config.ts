@@ -18,7 +18,7 @@ export const IMAGE_CONFIG = {
   social: {
     instagram: "https://www.instagram.com/taaaaaaaaai/",
     whatsapp: "https://wa.me/555481274089",
-    displayPhone: "(54) 8127-4089",
+    displayPhone: "(54) 98127-4089",
     handle: "@taaaaaaaaai"
   },
   professional: {
