@@ -25,10 +25,10 @@ export const AuthoritySection: React.FC = () => {
               />
             </div>
             
-            {/* Experience Counter */}
-            <div className="absolute top-10 -right-4 lg:-right-8 bg-[#1A1A1A] text-white p-6 lg:p-8 rounded-sm shadow-[0_30px_60px_rgba(0,0,0,0.4)] z-20 border-b-4 border-gold">
-              <span className="block text-4xl font-serif text-gold mb-1 font-bold">100%</span>
-              <span className="block text-[11px] uppercase tracking-[0.2em] text-white font-black leading-tight">
+            {/* Experience Counter - Ajustado para não cobrir o rosto no mobile */}
+            <div className="absolute -bottom-6 -right-2 lg:top-10 lg:bottom-auto lg:-right-8 bg-[#1A1A1A] text-white p-5 lg:p-8 rounded-sm shadow-[0_30px_60px_rgba(0,0,0,0.4)] z-20 border-b-4 border-gold transition-all">
+              <span className="block text-3xl lg:text-4xl font-serif text-gold mb-1 font-bold">100%</span>
+              <span className="block text-[9px] lg:text-[11px] uppercase tracking-[0.2em] text-white font-black leading-tight">
                 Dedicação em Estudo<br/>e Aperfeiçoamento
               </span>
             </div>
